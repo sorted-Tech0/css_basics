@@ -1,0 +1,9 @@
+button {
+    width: 5rem;
+    height: 3rem;
+    /* border: 2px solid blue; */
+    padding: 1rem;
+    background-color: lightgreen;
+    margin: 1rem;
+    color: white;
+}
