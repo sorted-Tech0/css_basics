@@ -1,0 +1,23 @@
+/* universal settings for styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    height: 10rem;
+    width: 10rem;
+    padding: 10px;
+    background-color: turquoise;
+    border: 10px solid grey;
+    /* by giving box-sizing: border-box this style converts into the same as below But w/o this it behaves different i.e. content-box*/
+}
+
+.border {
+    height: 10rem;
+    width: 10rem;
+    padding: 10px;
+    background-color: turquoise;
+    border: 10px solid grey;
+}

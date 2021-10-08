@@ -1,0 +1,23 @@
+.px {
+    font-size: 30px;
+    background-color: aqua;
+}
+
+.rem {
+    font-size: 3rem;
+}
+
+.vh-vw {
+    font-size: 20vw;
+}
+
+.parent {
+    height: 10rem;
+    width: 30rem;
+    background-color: lightgreen;
+}
+.child {
+    background-color: lightcoral;
+    height: 100%;
+    width: 20%;
+}
