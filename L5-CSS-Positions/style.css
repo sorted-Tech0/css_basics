@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height:400vh;
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+}
+
+.box-1 {
+    background-color: lightblue;
+    /* position: absolute;
+    top: 5rem;
+    left: 8rem; */
+
+    /* position: fixed;
+    top: 10rem;
+    left: 10rem; */
+
+    position: sticky;
+    top: 10rem;
+    left: 8rem;
+}
+.box-2 {
+    background-color: lightcoral;
+    /* position: relative;
+    top: 10rem;
+    left: 20rem; */
+}
+.box-3 {
+    background-color: lightgreen;
+}
+.box-4 {
+    background-color: lightsalmon;
+}
+
+/* 
+NOTE: 
+(1) position:static doesn't affected by top, left, bottom, right property
+(2) position: relative affected by left, bottom, and right properties.
+
+(3) position: absolute affected by top, left, bottom and right, will out of the natural flow
+
+(4) position: fixed, the element will out of the natural flow and fixed to the page
+
+(5) position: stickey means the element will be in natural flow i.e. the space from where element removed will be as it is and will be fixed at position within container
+
+*/
