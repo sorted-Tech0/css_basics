@@ -1,0 +1,20 @@
+.block {
+    background-color: lightblue;
+}
+
+.inline-1 {
+    background-color: lightpink;
+}
+
+.inline-2 {
+    background-color: lightgreen;
+}
+
+.inline-block {
+    background-color: yellow;
+    display: inline-block;
+    height: 5rem;
+    width: 15rem;
+}
+
+/* due to having inline-block property we can assign height and width to the element but for inline element height and width doesn't affact */
