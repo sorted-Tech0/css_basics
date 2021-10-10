@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.flex-container {
+    width: 90vw;
+    height: 80vh;
+    margin: auto;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+}
+
+.box {
+    width: 7rem;
+    height: 7rem;
+}
+
+.box-1 {
+    background-color: lightblue;
+    /* flex-grow: 1; */
+    flex-shrink: 1;
+
+}
+
+.box-2 {
+    background-color: lightgreen;
+    /* flex-grow: 2; */
+    flex-shrink: 2;
+}
+
+.box-3 {
+    background-color: lightpink;
+}
+
+.box-4 {
+    background-color: lightsalmon;
+}
+
+
+/* NOTE: 
+(1) flex-grow:1 that one will take space as much as it can, and other will take only defined area and grow-one element will take other area
+(2) as much you give the value for grow it will take as much size on the page
+
+(3) flex: shrink
+    like grow it was taking extra space of available, BUT shrink, what element has the highest value of shrink will reduce in size effectivilly, when the size will decrease.
+
+*/
